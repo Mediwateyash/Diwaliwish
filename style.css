@@ -114,3 +114,28 @@ a {
     transform: translate(-50%, 0px);
   }
 }
+@media (max-width: 480px) {
+  .diwali h1 {
+    font-size: 36px;
+  }
+
+  #message {
+    font-size: 16px;
+  }
+
+  :root {
+    --platform: 50px;
+    --diya-height: 40px;
+    --diya-width: 80px;
+    --flame-width: 12px;
+    --flame-height: 24px;
+  }
+
+  .container {
+    top: 15%;
+  }
+
+  .main {
+    bottom: 15%;
+  }
+}
